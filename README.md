@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-document = MetaInfo.parse(open("http://www.rottentomatoes.com/m/1217700-kick_ass/"))
+document = MetaInfo.parse(open("http://www.rottentomatoes.com/m/1217700-kick_ass/").read)
 
 document.title       => "Kick-Ass"
 
