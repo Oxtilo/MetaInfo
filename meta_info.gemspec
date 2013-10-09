@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = MetaInfo::VERSION
   spec.authors       = ["macbury"]
   spec.email         = ["macbury@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "Simple gem for extracting meta information from web page using opengraph tags, twitter cards tags or normal meta tags"
+  spec.summary       = "Simple gem for extracting meta information from web page using opengraph tags, twitter cards tags or normal meta tags"
+  spec.homepage      = "https://github.com/macbury/MetaInfo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
