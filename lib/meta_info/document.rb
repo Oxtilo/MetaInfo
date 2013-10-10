@@ -24,7 +24,7 @@ module MetaInfo
     end
 
     def valid?
-      title && description != false
+      title != false
     end
 
     def meta_description
